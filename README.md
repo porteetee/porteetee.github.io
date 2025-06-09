@@ -1,2 +1,5 @@
 ## my page
-go to : https://porteetee.github.io/index.html
+[Link](https://porteetee.github.io/index.html)
+```bash
+https://porteetee.github.io/index.html
+```
