@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>My QR Code</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="space"></div>
+
+        <div class="content" id="url-input">
+            <h1>Fill in information</h1>
+            <input type="text" id="text" placeholder="URL or Text">
+            <br>
+            <button id="btn-generate" onclick="generateQRCode()">Create QR Code</button>
+        </div>
+
+        <div class="content" id="qrcode-section">
+            <h1>QR Code</h1>
+            <div id="qrcode"></div>
+        </div>
+
+        <div class="space"></div>
+    </div>
+    <div class="wrapper">
+        <div class="space"></div>
+        <div class="content2">
+            <button id="btn-download" onclick="DownloadQRCode()" style="display: none;">Download QR Code</button>
+        </div>
+        <div class="space"></div>
+    </div>
+    <script src="js/generateQRCode.js"></script>
+    <script src="js/downloadQRCode.js"></script>
+</body>
+</html>
