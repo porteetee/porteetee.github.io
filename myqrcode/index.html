@@ -9,11 +9,9 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="space"></div>
-
         <div class="content" id="url-input">
             <h1>Fill in information</h1>
-            <input type="text" id="text" placeholder="URL or Text">
+            <input type="text" id="text" placeholder="Type URL or text">
             <br>
             <button id="btn-generate" onclick="generateQRCode()">Create QR Code</button>
         </div>
@@ -22,15 +20,11 @@
             <h1>QR Code</h1>
             <div id="qrcode"></div>
         </div>
-
-        <div class="space"></div>
     </div>
     <div class="wrapper">
-        <div class="space"></div>
-        <div class="content2">
+        <div class="content">
             <button id="btn-download" onclick="DownloadQRCode()" style="display: none;">Download QR Code</button>
         </div>
-        <div class="space"></div>
     </div>
     <script src="js/generateQRCode.js"></script>
     <script src="js/downloadQRCode.js"></script>
