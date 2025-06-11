@@ -25,6 +25,8 @@ h1 {
   user-select: none;
   pointer-events: auto;
   touch-action: none;
+  -webkit-user-drag: none; 
+  -webkit-touch-callout: none; 
   transition: transform 0.05s linear;
   animation: rotate 2s linear infinite;
 }
