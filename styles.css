@@ -9,6 +9,8 @@ body {
 .wrapper{
     pointer-events: none;
     user-select: none; 
+    -webkit-user-drag: none; 
+    -webkit-touch-callout: none; 
 }
 h1 {
     font-size: 60px; 
@@ -22,12 +24,12 @@ h1 {
 
 
 #my-cat {
-  user-select: none;
-  pointer-events: auto;
-  touch-action: none;
-  -webkit-user-drag: none; 
-  -webkit-touch-callout: none; 
-  transition: transform 0.05s linear;
-  animation: rotate 2s linear infinite;
+    user-select: none;
+    pointer-events: auto;
+    touch-action: none;
+    -webkit-user-drag: none; 
+    -webkit-touch-callout: none; 
+    transition: transform 0.05s linear;
+    animation: rotate 2s linear infinite;
 }
 
