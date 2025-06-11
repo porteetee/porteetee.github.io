@@ -15,13 +15,12 @@ h1 {
     color:brown; 
     text-align: center;
 }
-@keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+
 
 #my-cat {
-  animation: rotate 2s linear infinite;
-  pointer-events: none;
-  user-select: none; 
+  user-select: none;
+  pointer-events: auto;
+  touch-action: none;
+  transition: transform 0.05s linear;
 }
+
