@@ -15,6 +15,10 @@ h1 {
     color:brown; 
     text-align: center;
 }
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 
 
 #my-cat {
@@ -22,5 +26,6 @@ h1 {
   pointer-events: auto;
   touch-action: none;
   transition: transform 0.05s linear;
+  animation: rotate 2s linear infinite;
 }
 
